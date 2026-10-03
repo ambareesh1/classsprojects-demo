@@ -1,0 +1,1 @@
+<?php get_header(); ?><div class="container" style="padding-bottom:60px"><?php while(have_posts()): the_post(); ?><div class="page-head"><span class="eyebrow">CLASSS Projects</span><h1><?php the_title(); ?></h1></div><div class="page-content"><?php the_content(); ?></div><?php endwhile; ?></div><?php get_footer(); ?>

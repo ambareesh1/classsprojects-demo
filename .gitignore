@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.DS_Store
+.openai/
+.sites-runtime/
+wp-config.php
+wp-content/uploads/
+*.log
+.vercel/
